@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.head {
+    background-color: rgb(74, 211, 74);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.Nav-bar {
+    background-color: green;
+}
+
+.Nav-bar li {
+    display: inline-block;
+    padding: 10px;
+
+
+}
+
+.Nav-bar li a {
+    text-decoration: none;
+    color: rgb(236, 235, 124);
+    font-weight: bolder;
+    font-size: medium;
+    position: relative;
+    left: 130px;
+}
+
+.head .title {
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.main {
+    width: 100%;
+    height: 2000px;
+    margin: auto;
+    background-image: url(../Imges/img3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.describtion {
+    padding: 10px;
+    width: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    border-radius: 30px;
+    color: rgb(21, 54, 8);
+    position: absolute;
+    top: 180px;
+
+
+}
+
+/* p::before{
+    content: "   ";
+    background-color: brown;
+    
+} */
+p {
+    margin-left: 50px;
+}
+
+.main h3 {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+    margin: auto;
+    font-size: x-large;
+    color: rgb(5, 5, 104);
+    border-bottom: 1px solid rgb(5, 5, 104);
+    border-top: 1px solid rgb(5, 5, 104);
+    border-radius: 30px;
+}
+
+.QA-explain {
+    border: 1px solid rgb(5, 5, 104);
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    margin: auto;
+    left: 800px;
+    top: 280px;
+
+}
+
+.QA-explain p {
+    margin: 20px;
+    width: 400px;
+}
+
+.parts-explain {
+    border: 1px solid rgb(21, 54, 8);
+    border-radius: 30px;
+    display: inline-block;
+    width: 90px;
+    padding: 20px;
+    position: relative;
+    right: 350px;
+    top: 30%;
+}
+
+#Diet,
+#Gym,
+#Start {
+    width: 45%;
+    visibility: hidden;
+
+}
+
+.parts-explain button {
+    border: none;
+    background: none;
+    font-size: medium;
+}
+
+.footer {
+    background-color: green;
+    color: rgb(236, 235, 124);
+    margin: auto;
+}
+
+.footer div {
+    display: inline-block;
+    width: 33%;
+}
+
+.footer div h2 {
+    position: relative;
+}
+
+.footer link {
+    width: 35%;
+    position: relative;
+    bottom: 50px;
+}
+
+.feedback {
+    position: relative;
+    bottom: 5px;
+    width: 35%;
+}
+
+.feedback textarea {
+    width: 100%;
+    overflow: auto;
+
+}
+
+#feed {
+    width: 100%;
+    height: 135px;
+    background-color: greenyellow;
+    font-size: large;
+    color: green;
+    font-weight: bold;
+    border: 1px solid green;
+
+
+}
+
+.footer div ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.footer div ul li a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.footer nav span {
+    position: relative;
+    left: 1020px;
+}
